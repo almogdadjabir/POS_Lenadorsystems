@@ -240,7 +240,7 @@ public class MainActivity extends AppCompatActivity {
 
         if(total > 0) {
 
-            Invoice newInvoice = new Invoice(total, 0.0);
+            Invoice newInvoice = new Invoice(total, 0.0, Double.parseDouble(taxTextView.getText().toString()));
             LiveData<Long> invoiceIdLiveData = invoiceViewModel.insert(newInvoice);
 
             saveOrderDetails(invoiceIdLiveData);
@@ -265,7 +265,7 @@ public class MainActivity extends AppCompatActivity {
 
 //                     Call print Function
 
-                      printInvoice(
+                    printInvoice(
                             orders,
                             invoiceId,
                             totalTextView.getText().toString(),
@@ -273,7 +273,7 @@ public class MainActivity extends AppCompatActivity {
                             qtyTextView.getText().toString(),
                             discountTextView.getText().toString(),
                             taxTextView.getText().toString()
-                            );
+                    );
 
                     cartViewModel.clearCart();
                 }

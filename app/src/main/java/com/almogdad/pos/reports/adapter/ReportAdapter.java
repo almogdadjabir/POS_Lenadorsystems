@@ -55,6 +55,7 @@ public class ReportAdapter extends RecyclerView.Adapter<ReportAdapter.ReportHold
         Invoice curentInvoice = invoices.get(position);
         holder.name.setText(String.valueOf(curentInvoice.getId()));
         holder.price.setText(String.valueOf(curentInvoice.getTotal()));
+        holder.tax.setText(String.valueOf(curentInvoice.getTax()));
 
 
         OrderAdapter orderAdapter = new OrderAdapter(productViewModel, lifecycleOwner);
@@ -80,14 +81,15 @@ public class ReportAdapter extends RecyclerView.Adapter<ReportAdapter.ReportHold
     }
 
     public void setInvoices(List<Invoice> invoices){
-         this.invoices = invoices;
+        this.invoices = invoices;
 
-         notifyDataSetChanged();
+        notifyDataSetChanged();
     }
 
     class ReportHolder extends RecyclerView.ViewHolder{
         private TextView name;
         private TextView price;
+        private TextView tax;
         private RecyclerView recyclerView;
         private LinearLayout detailsHeader;
 
@@ -97,6 +99,7 @@ public class ReportAdapter extends RecyclerView.Adapter<ReportAdapter.ReportHold
 
             name = itemView.findViewById(R.id.invoice_id);
             price = itemView.findViewById(R.id.invoice_total);
+            tax = itemView.findViewById(R.id.invoice_tax);
             detailsHeader = itemView.findViewById(R.id.details_header);
             recyclerView = itemView.findViewById(R.id.recyclerView);
             recyclerView.setLayoutManager(new GridLayoutManager(mContext, 1));
@@ -106,4 +109,3 @@ public class ReportAdapter extends RecyclerView.Adapter<ReportAdapter.ReportHold
         }
     }
 }
-

@@ -14,9 +14,10 @@ public class Invoice {
     private long id;
 
 
-    public Invoice(double total, double totalDiscount) {
+    public Invoice(double total, double totalDiscount, double tax) {
         this.total = total;
         this.totalDiscount = totalDiscount;
+        this.tax = tax;
     }
 
     public void setId(long id) {
@@ -33,11 +34,16 @@ public class Invoice {
         return total;
     }
 
+    public double getTax() {
+        return tax;
+    }
+
     public double getTotalDiscount() {
         return totalDiscount;
     }
 
     private double total;
+    private double tax;
 
     private double totalDiscount;
 }

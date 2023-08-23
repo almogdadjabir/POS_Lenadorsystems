@@ -16,7 +16,7 @@
         android:layout_height="wrap_content"
         android:orientation="vertical"
         android:padding="8dp">
-        
+
         <LinearLayout
             android:layout_width="match_parent"
             android:layout_height="wrap_content"
@@ -52,6 +52,27 @@
 
             <TextView
                 android:id="@+id/invoice_total"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:gravity="end"
+                android:textAppearance="@style/TextAppearance.AppCompat.Medium"/>
+
+        </LinearLayout>
+
+        <LinearLayout
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:orientation="horizontal">
+            <TextView
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:text="@string/tax"
+                android:textStyle="bold"
+                android:textColor="#1f181a"
+                android:textSize="16sp"/>
+
+            <TextView
+                android:id="@+id/invoice_tax"
                 android:layout_width="match_parent"
                 android:layout_height="wrap_content"
                 android:gravity="end"
