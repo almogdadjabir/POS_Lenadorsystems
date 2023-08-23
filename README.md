@@ -31,7 +31,7 @@ https://github.com/almogdadjabir/POS_Lenadorsystems/assets/49059742/31a81392-1fd
 
 - Add product to cart
 
-  > add, remove, applay discount, incress or decress the QTY
+  > add, remove, apply discount, increase or decrease the QTY
 - Orders Screen
   > Ability to view past orders
 - Setting Screen
@@ -76,7 +76,6 @@ https://github.com/almogdadjabir/POS_Lenadorsystems/assets/49059742/31a81392-1fd
 
 ## Screens
 - SplashScreen
-
 - MainActivity Screen
     1. Add To Cart
     2. Manage the cart </br>
@@ -84,19 +83,17 @@ https://github.com/almogdadjabir/POS_Lenadorsystems/assets/49059742/31a81392-1fd
        b. Decrease the qty. </br>
        c. Add discount (per item). </br>
        d. Remove from cart. </br>
-3. Calculate</br>
-   a. Total.</br>
-   b. Tax.</br>
-   c. SubTotal.</br>
-   d. Total QTY.</br>
-   d. Total Discount.</br>
-
+    3. Calculate</br>
+       a. Total.</br>
+       b. Tax.</br>
+       c. SubTotal.</br>
+       d. Total QTY.</br>
+       d. Total Discount.</br>
 - AddProduct Screen</br>
   a. Add New Product.</br>
   NOTE: In this feature, I have implemented both practices:</br>
   a. Adding a product using a custom dialog.</br>
   b. Adding a product through an activity triggered by an intent that waits for a result, and I have also implemented the intent extras.
-  </br>
   </br>
 - Report Screen</br>
   a. see all previous sales reports.
