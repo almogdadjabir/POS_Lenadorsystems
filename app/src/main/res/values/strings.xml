@@ -1,0 +1,30 @@
+<resources>
+    <string name="app_name">POS</string>
+    <string name="pos">POS</string>
+    <string name="tax">TAX</string>
+    <string name="exclusive">Exclusive</string>
+    <string name="inclusive">Inclusive</string>
+    <string name="logo">logo</string>
+    <string name="all_products">All Products</string>
+    <string name="new_product">New Product</string>
+    <string name="report">Report</string>
+    <string name="_1">1</string>
+    <string name="subtotal">sub Total</string>
+    <string name="enter_discount">Enter Discount:</string>
+    <string name="discount_value">Discount Value</string>
+    <string name="note">Note That Discount cannot be more then product amount</string>
+    <string name="add_new_product">Add New Product</string>
+    <string name="product_name">Product name</string>
+    <string name="product_price">Product Price</string>
+    <string name="save">Save</string>
+    <string name="sub_total">Sub Total</string>
+    <string name="_0_0">0.0</string>
+    <string name="discount">Discount</string>
+    <string name="total">Total</string>
+    <string name="clear">Clear</string>
+    <string name="payment">Payment</string>
+    <string name="back">Back</string>
+    <string name="invoice_id">Invoice ID</string>
+    <string name="total_qty">Total Quantity</string>
+
+</resources>
