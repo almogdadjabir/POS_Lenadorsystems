@@ -17,7 +17,9 @@
 
 ## Demo
 
-https://github.com/almogdadjabir/mgisupplies/assets/49059742/d558b7f3-ad6b-4817-85b9-6835f09b3a5a
+
+https://github.com/almogdadjabir/POS_Lenadorsystems/assets/49059742/31a81392-1fd4-45d2-9f23-8b26e93a6a5f
+
 
 
 ## Task Requirements
