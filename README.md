@@ -82,7 +82,7 @@ https://github.com/almogdadjabir/POS_Lenadorsystems/assets/49059742/31a81392-1fd
     2. Manage the cart </br>
        a. Increase the qty. </br>
        b. Decrease the qty. </br>
-       c. Add discount. </br>
+       c. Add discount (per item). </br>
        d. Remove from cart. </br>
 3. Calculate</br>
    a. Total.</br>
